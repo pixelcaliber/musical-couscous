@@ -1,10 +1,15 @@
-# ToDo App using PHP, symfony and redis
+# ToDo App using PHP, symfony, mysql and redis
 
 #### Could be used to maintain day-to-day tasks or list everything that we have to do and we can add more new tasks and delete the old ones once they are complete.
 
+- User can login and register, session is stored in form of cookies and added to redis
+- Utilized mysql as database for storing users and tasks
 - Utilized redis to store sessions for all the sessions to minimize cache miss
 - Created multiple instances of the application using nginx
-- Docker to containerize the application 
+- Docker to containerize the application
+- User can archive and unarchive tasks anytime they want
+
+#### Tech-Stack: PHP, symfony, redis, nginx, Mysql, docker
 
 Primary Product requirements:
 
